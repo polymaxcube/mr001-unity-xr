@@ -1,0 +1,54 @@
+# Unity-generated caches and local settings (project root only)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Generated build output
+/[Bb]uild/
+/[Bb]uilds/
+# Output/ is intentionally kept until its contents are confirmed disposable.
+
+# IDE-generated files (do not ignore Assets/Plugins binaries)
+/.vs/
+/.idea/
+/*.csproj
+/*.unityproj
+/*.sln
+/*.slnx
+/*.suo
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svd
+/*.opendb
+/*.VC.db
+/*.pdb
+/*.mdb
+
+# Unity crash reports and generated diagnostics
+/sysinfo.txt
+/crashlytics-build.properties
+
+# OS-generated clutter
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local environment secrets; keep sanitized templates
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Android signing keys: back up securely outside Git
+*.keystore
+*.jks
+
+# IMPORTANT: Keep Assets/ and its .meta files, Packages/, and ProjectSettings/.
+# Keep source models, textures, plugin DLLs, and package lock files.
